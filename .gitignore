@@ -1,0 +1,23 @@
+# Ignora ambiente virtual
+venv/
+
+# Ignora arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignora arquivos de log ou temporários
+*.log
+*.tmp
+
+# Ignora arquivos de sistema (ex: macOS)
+.DS_Store
+
+# Ignora configurações locais de IDEs
+.vscode/
+.idea/
+
+# Ignora cache do Hugging Face (caso queira)
+~/.cache/huggingface
+

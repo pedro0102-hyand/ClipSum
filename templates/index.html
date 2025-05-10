@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ClipSum - Resumo Inteligente</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 ClipSum</h1>
+        <p class="subtitulo">Resumo automático da área de transferência</p>
+
+        <div class="bloco">
+            <label for="original">📋 Texto Original Copiado:</label>
+            <textarea id="original" readonly placeholder="Copie algum texto para ver aqui..."></textarea>
+        </div>
+
+        <div class="bloco">
+            <label for="resumo">🧠 Resumo Gerado:</label>
+            <textarea id="resumo" readonly placeholder="O resumo será gerado aqui automaticamente."></textarea>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
